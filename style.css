@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css?family=Almendra+SC'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+#text{
+    color:#fff;
+    top:10px;
+  margin-left:-10%;
+}
+h1{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color:#fff;
+    font-size:22px;
+    text-align:center;
+      box-shadow:0 0 4px #006699;
+    width:100%;
+    top:-3.5%;
+    text-transform:uppercase;
+   left:-1%;
+    border-radius:5px;  
+    height:50px;
+    font-size:21px;
+    position:fixed;
+    font-family:Almendra SC;
+   
+}
+#one{
+    width:150px;
+    height:240px;
+    left:0px;
+    float:left;
+    background-color:#fff;
+    box-shadow:0 0 15px #fff;
+    border-radius:10px;
+    margin-left:2%;
+    margin-top:2%;
+}
+.two{
+    width:150px;
+    height:240px;
+    background-color:#fff;
+     box-shadow:0 0 15px #fff;
+    border-radius:10px;
+  left:-300%;
+  margin-top:2%;
+  float:left;
+  margin-left:7%;
+}
+img{
+    margin-top:15px;
+    border-radius:15px;
+    margin-left:7%;
+    
+}
+.container{
+    background-color:#f1f1f1;
+    width:100%;
+    height:1540px;
+    
+}
+p ,h3 , h2{
+    text-align:center;
+    font-family:Almendra SC;
+}
+#first{
+    border-radius:1px;
+    margin-left:0px;
+    margin-top:0px;
+    animation:anim 2s linear infinite;
+
+}
+button{
+margin-top:7%;
+margin-left:10%;
+font-family:Almendra SC;
+    color:black;
+    width:40px;
+    height:20px;
+    background:#fff;
+    border:1px solid #fff;
+}
+button:hover{
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color:#fff;
+    border:1px solid #764ba2;
+    outline:0;
+}
+.final{
+   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin-top:-3%;
+    color:#fff;
+    padding-left:15px;
+    padding-right:20px;   
+    height:480px;
+    text-transform:uppercase;
+    width:89%;
+    font-size:17px;
+    font-weight:bolder;
+    font-family:Almendra SC;
+}
+h4{
+    font-family:Almendra SC;
+    font-weight:lighter;
+}
+#sign{
+border-top:2px solid #fff;
+margin-top:1%;
+    color:#fff;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    text-align:center;
+}
+h4:hover{
+    transform:scale(0.3);
+}
+.fa-bars{
+    color:#fff;
+    font-size:20px;
+    top:5%;
+    float:left;
+    margin-left:15%;
+}
+.fa-shopping-bag{
+    color:#fff;
+    top:-10%;
+    float:right;
+    font-size:20px;
+    margin-right:5%;
+    
+}
+.fa-search{
+    margin-left:9%;
+} 
+h3{
+    font-size:15px;
+}
+h6 , a{
+color:#000;
+    font-size:15px;
+    font-weight:bolder;
+    text-align:center;
+    text-transform:uppercase;
+    font-family:Roboto;
+}
+#first{
+    width:350px;
+    height:300px;
+    background:url('https://i.ibb.co/hZQQ27L/Screenshot-2020-03-21-15-47-39-496-com-android-chrome.jpg');
+    border-radius:10px;
+    animation:anim 8s linear infinite;
+}
+@keyframes anim{
+   
+    20%{
+        background:url('https://i.ibb.co/hZQQ27L/Screenshot-2020-03-21-15-47-39-496-com-android-chrome.jpg');
+    }
+    30%{
+        background:#764ba2;
+    }
+    60%{
+        background:#667eea;
+    }
+    70%{
+        background:#764ba2;
+    }
+    100%{
+        background:url('https://i.ibb.co/hZQQ27L/Screenshot-2020-03-21-15-47-39-496-com-android-chrome.jpg');
+    }
+}
